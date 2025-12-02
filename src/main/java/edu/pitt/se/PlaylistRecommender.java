@@ -24,7 +24,7 @@ public class PlaylistRecommender {
         else if(avg < 100){
             return "LOW";
         }
-        return "bpm not accepted";
+        return "bpm not processable";
     }
 
     public static boolean isValidTrackTitle(String title) {
